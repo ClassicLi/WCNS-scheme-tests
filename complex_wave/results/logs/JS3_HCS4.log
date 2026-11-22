@@ -1,0 +1,13 @@
+version=1
+precision=dp
+scheme=JS3
+operator=HCS4
+mesh_num=200
+periods=4
+cfl=  2.9999999999999999E-01
+dt_min=  2.0852250906067127E-04
+dt_max=  3.8702421288535466E-03
+steps=2349
+umin= -2.8827420731278102E-04
+umax=  1.0001838586957021E+00
+nan_count=0

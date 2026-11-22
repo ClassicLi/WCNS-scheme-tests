@@ -1,0 +1,16 @@
+case=lax
+scheme=QR
+operator=HCS4
+precision=dp
+mesh_num=200
+cfl=  1.0000000000000001E-01
+tend=  1.4999999999999999E-01
+steps=1259
+corrections=0
+interp_corrections=0
+cpu_seconds=  2.7016899999999999E-01
+min_rho=  3.4442881901752492E-01
+max_rho=  1.3040686347038579E+00
+min_p=  5.7099999999999995E-01
+max_p=  3.5279999952477650E+00
+nan_count=0

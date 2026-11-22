@@ -1,0 +1,12 @@
+case=rayleigh_taylor
+scheme=MOC53
+operator=HCS6
+mesh=16
+cfl=  1.0000000000000001E-01
+tend=  1.0000000000000000E-03
+gama=  1.6666666666666667E+00
+steps=1
+interp_corrections=0
+cell_corrections=0
+nan_count=0
+cpu_seconds=  1.1500000000000000E-03

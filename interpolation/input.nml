@@ -1,0 +1,13 @@
+&test_nml
+  ini_mesh_num = 10,
+  iter_times = 10,
+  test_func_type = 3,
+  n_order_critical_point = 1,
+  udf_id = 3,
+  nonlinear_baseline = 'same_order',
+  output_fig = .true.,
+/
+
+&scheme_nml
+  scheme = 'LINEAR3_M1P1',
+/

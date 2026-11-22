@@ -1,0 +1,12 @@
+version=1
+scheme=RBF_GA5_HCS4
+operator=HCS4
+mesh_num=827
+dt=  1.0000000000000000E-20
+varphi_min=  0.0000000000000000E+00
+varphi_max=  3.1377938716628406E+00
+phi_re_min=  0.0000000000000000E+00
+phi_re_max=  1.6877162505230590E+00
+phi_im_min= -7.4998917701348877E-01
+phi_im_max=  7.3161878653150414E-16
+nan_count=0

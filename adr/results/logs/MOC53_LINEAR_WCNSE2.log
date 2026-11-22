@@ -1,0 +1,12 @@
+version=1
+scheme=MOC53_LINEAR_WCNSE2
+operator=WCNSE2
+mesh_num=827
+dt=  1.0000000000000000E-20
+varphi_min=  0.0000000000000000E+00
+varphi_max=  3.1377938716628406E+00
+phi_re_min=  0.0000000000000000E+00
+phi_re_max=  1.2115941582712769E+00
+phi_im_min= -7.8499428509026859E-01
+phi_im_max=  0.0000000000000000E+00
+nan_count=0

@@ -1,0 +1,12 @@
+case=double_mach
+scheme=MOZ
+operator=HCS6
+mesh=16
+cfl=  1.0000000000000001E-01
+tend=  1.0000000000000000E-03
+gama=  1.3999999999999999E+00
+steps=3
+interp_corrections=83
+cell_corrections=0
+nan_count=0
+cpu_seconds=  2.4458000000000001E-02

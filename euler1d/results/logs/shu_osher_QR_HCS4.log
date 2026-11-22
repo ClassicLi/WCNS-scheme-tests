@@ -1,0 +1,16 @@
+case=shu_osher
+scheme=QR
+operator=HCS4
+precision=dp
+mesh_num=200
+cfl=  1.0000000000000001E-01
+tend=  1.8000000000000000E+00
+steps=1572
+corrections=0
+interp_corrections=0
+cpu_seconds=  3.3649800000000002E-01
+min_rho=  8.3245679582644527E-01
+max_rho=  4.0842042343632547E+00
+min_p=  9.9985195999415499E-01
+max_p=  1.1060886016053718E+01
+nan_count=0

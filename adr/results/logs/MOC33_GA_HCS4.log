@@ -1,0 +1,12 @@
+version=1
+scheme=MOC33_GA_HCS4
+operator=HCS4
+mesh_num=827
+dt=  1.0000000000000000E-20
+varphi_min=  0.0000000000000000E+00
+varphi_max=  3.1377938716628406E+00
+phi_re_min=  0.0000000000000000E+00
+phi_re_max=  1.4772154954592958E+00
+phi_im_min= -9.1693622002604797E-01
+phi_im_max=  0.0000000000000000E+00
+nan_count=0

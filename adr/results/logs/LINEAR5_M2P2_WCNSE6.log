@@ -1,0 +1,12 @@
+version=1
+scheme=LINEAR5_M2P2_WCNSE6
+operator=WCNSE6
+mesh_num=827
+dt=  1.0000000000000000E-20
+varphi_min=  0.0000000000000000E+00
+varphi_max=  3.1377938716628406E+00
+phi_re_min=  0.0000000000000000E+00
+phi_re_max=  1.6216587062805281E+00
+phi_im_min= -9.3123906426123402E-01
+phi_im_max=  0.0000000000000000E+00
+nan_count=0

@@ -1,0 +1,13 @@
+version=1
+precision=dp
+scheme=JS5
+operator=HCS6
+mesh_num=200
+periods=4
+cfl=  2.9999999999999999E-01
+dt_min=  5.8656716385030450E-04
+dt_max=  3.0000000000000001E-03
+steps=2671
+umin= -6.3921204432953614E-04
+umax=  1.0010429942923409E+00
+nan_count=0

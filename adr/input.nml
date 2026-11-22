@@ -1,0 +1,33 @@
+&adr_nml
+  mesh_num = 827
+  dt = 0.0d0
+  output_dir = 'results'
+  write_tecplot_sample = .false.
+/
+&weno_nml
+  scheme = 'WENO5_LINEAR'
+  js3_eps = 1.0d-6, js3_p = 2.0d0
+  js5_eps = 1.0d-6, js5_p = 2.0d0
+  z5_eps = 1.0d-40, z5_q = 2.0d0
+  weno_c_c4 = 0.2d0, weno_c_c5 = 0.1d0, weno_c_eps = 1.0d-6
+  teno_q = 6.0d0, teno_ct = 1.0d-4
+  thinc_beta = 2.0d0
+  rbf_eps = 75.0d0
+  llr_eps = 1.0d-20
+/
+&scheme_nml
+  scheme = 'Z5'
+  js3_eps = 1.0d-6, js3_p = 2.0d0
+  z3_eps = 1.0d-40, z3_q = 2.0d0
+  js5_eps = 1.0d-6, js5_p = 2.0d0
+  z5_eps = 1.0d-40, z5_q = 2.0d0
+  qr_smv = 1.0d-80
+  rbf_size = 5, rbf_kernel = 'GA', rbf_num_deriv = 'right', rbf_denom_deriv = 'right', rbf_floor_value = 30.0d0
+  moc322_eps = 1.0d-80, moc322_M_q = 2
+  moc33_eps = 1.0d-80, moc33_p = 2, moc33_linear = 'GA'
+  moc53_eps = 1.0d-80, moc53_N_q = 4, moc53_p = 2, moc53_linear = 'LINEAR'
+  moz_eps = 1.0d-80, moz_N_q = 4, moz_M_q = 2
+/
+&difference_nml
+  difference_operator = 'HCS4'
+/

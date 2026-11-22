@@ -1,0 +1,12 @@
+version=1
+scheme=WENO3_LINEAR
+operator=
+mesh_num=827
+dt=  1.0000000000000000E-20
+varphi_min=  0.0000000000000000E+00
+varphi_max=  3.1377938716628406E+00
+phi_re_min=  0.0000000000000000E+00
+phi_re_max=  1.3722141052410844E+00
+phi_im_min= -1.3333237128661716E+00
+phi_im_max=  0.0000000000000000E+00
+nan_count=0

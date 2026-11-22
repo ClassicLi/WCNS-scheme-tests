@@ -1,0 +1,16 @@
+case=shu_osher
+scheme=MUSCL
+operator=WCNSE2
+precision=dp
+mesh_num=200
+cfl=  1.0000000000000001E-01
+tend=  1.8000000000000000E+00
+steps=1569
+corrections=0
+interp_corrections=0
+cpu_seconds=  2.4457800000000002E-01
+min_rho=  8.5364338298258002E-01
+max_rho=  4.0481949003765010E+00
+min_p=  9.9989513579857858E-01
+max_p=  1.0978799149148228E+01
+nan_count=0

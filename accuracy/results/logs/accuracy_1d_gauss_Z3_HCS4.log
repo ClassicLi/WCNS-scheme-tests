@@ -1,0 +1,8 @@
+initial=gauss
+scheme=Z3
+operator=HCS4
+precision=dp
+nbase=10
+levels=8
+cfl=  1.0000000000000001E-01
+tend=  2.0000000000000000E+00

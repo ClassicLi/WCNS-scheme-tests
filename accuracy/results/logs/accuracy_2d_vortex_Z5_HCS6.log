@@ -1,0 +1,10 @@
+case=vortex
+scheme=Z5
+operator=HCS6
+precision=dp
+nbase=40
+levels=4
+cfl=  1.0000000000000001E-01
+tend=  1.0000000000000000E+00
+sine_rho0=  1.0000000000000000E+00
+sine_amp=  2.0000000000000001E-01

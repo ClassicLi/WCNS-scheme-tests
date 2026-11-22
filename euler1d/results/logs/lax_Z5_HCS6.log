@@ -1,0 +1,16 @@
+case=lax
+scheme=Z5
+operator=HCS6
+precision=dp
+mesh_num=200
+cfl=  1.0000000000000001E-01
+tend=  1.4999999999999999E-01
+steps=1258
+corrections=0
+interp_corrections=0
+cpu_seconds=  4.8667600000000000E-01
+min_rho=  3.4431942542935251E-01
+max_rho=  1.3040118107533425E+00
+min_p=  5.7099999999999995E-01
+max_p=  3.5279999987434940E+00
+nan_count=0

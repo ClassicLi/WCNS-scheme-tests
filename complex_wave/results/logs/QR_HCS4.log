@@ -1,0 +1,13 @@
+version=1
+precision=dp
+scheme=QR
+operator=HCS4
+mesh_num=200
+periods=4
+cfl=  2.9999999999999999E-01
+dt_min=  8.9274451097276497E-04
+dt_max=  3.2343154948911725E-03
+steps=2586
+umin=  0.0000000000000000E+00
+umax=  1.0000000000000000E+00
+nan_count=0

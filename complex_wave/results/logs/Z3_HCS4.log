@@ -1,0 +1,13 @@
+version=1
+precision=dp
+scheme=Z3
+operator=HCS4
+mesh_num=200
+periods=4
+cfl=  2.9999999999999999E-01
+dt_min=  9.8617690592206486E-04
+dt_max=  3.5508123658702087E-03
+steps=2456
+umin= -1.7872228786096827E-21
+umax=  1.0000000000000000E+00
+nan_count=0

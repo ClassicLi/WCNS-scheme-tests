@@ -1,0 +1,16 @@
+&euler2d_nml
+  case_2d = 'riemann1'
+  mesh_num = 0
+  cfl = 0.3d0
+  tend = -1.0d0
+  tend2 = -1.0d0
+  gamma = 0.0d0
+  output_dir = 'results'
+  write_sample = .false.
+/
+&scheme_nml
+  scheme = 'QR'
+/
+&difference_nml
+  difference_operator = 'AUTO'
+/

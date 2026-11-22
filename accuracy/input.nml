@@ -1,0 +1,26 @@
+&accuracy_nml
+  write_sample = .false.
+  output_dir = 'results'
+/
+&accuracy_1d_nml
+  initial_1d = 'sin2'
+  nbase = 10
+  levels = 8
+  cfl = 0.1d0
+  tend = 2.0d0
+/
+&accuracy_2d_nml
+  case_2d = 'vortex'
+  nbase = 40
+  levels = 4
+  cfl = 0.1d0
+  tend = 1.0d0
+  sine_rho0 = 1.0d0
+  sine_amp = 0.2d0
+/
+&scheme_nml
+  scheme = 'Z5'
+/
+&difference_nml
+  difference_operator = 'AUTO'
+/

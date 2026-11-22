@@ -1,0 +1,13 @@
+version=1
+precision=dp
+scheme=Z5
+operator=HCS6
+mesh_num=200
+periods=4
+cfl=  2.9999999999999999E-01
+dt_min=  1.7626218717126108E-04
+dt_max=  3.0000000057282951E-03
+steps=2669
+umin= -6.4730801696242114E-04
+umax=  1.0017294405574835E+00
+nan_count=0

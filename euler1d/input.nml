@@ -1,0 +1,14 @@
+&euler1d_nml
+  case_1d = 'sod'
+  mesh_num = 200
+  cfl = 0.1d0
+  tend = -1.0d0
+  output_dir = 'results'
+  write_sample = .false.
+/
+&scheme_nml
+  scheme = 'QR'
+/
+&difference_nml
+  difference_operator = 'AUTO'
+/
